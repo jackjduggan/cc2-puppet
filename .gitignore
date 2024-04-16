@@ -1,0 +1,10 @@
+# Ignore specific configuration files
+auth.conf
+hiera.yaml
+
+# Ignore specific directories in the production environment
+code/environments/production/modules/git/
+code/environments/production/modules/stdlib/
+
+# Ignore the SSL directory
+ssl/
